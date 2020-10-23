@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        style="@style/item_RelativeLayout">
+        <LinearLayout
+            style="@style/item_LinearLayout">
+            <TextView
+                style="@style/item_name"
+                android:text="帧头" />
+            <TextView
+                style="@style/item_cut_line"/>
+            <TextView
+                style="@style/item_data"
+                android:id="@+id/tv_data1"
+                android:hint="数据1" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/horizontal_cut_line"/>
+
+    <RelativeLayout
+        style="@style/item_RelativeLayout">
+        <LinearLayout
+            style="@style/item_LinearLayout">
+            <TextView
+                style="@style/item_name"
+                android:text="时间" />
+            <TextView
+                style="@style/item_cut_line"/>
+            <TextView
+                style="@style/item_data"
+                android:id="@+id/tv_data2"
+                android:hint="数据2" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/horizontal_cut_line"/>
+
+    <RelativeLayout
+        style="@style/item_RelativeLayout">
+        <LinearLayout
+            style="@style/item_LinearLayout">
+            <TextView
+                style="@style/item_name"
+                android:text="经度" />
+            <TextView
+                style="@style/item_cut_line"/>
+            <TextView
+                style="@style/item_data"
+                android:id="@+id/tv_data3"
+                android:hint="数据3" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/horizontal_cut_line"/>
+
+    <RelativeLayout
+        style="@style/item_RelativeLayout">
+        <LinearLayout
+            style="@style/item_LinearLayout">
+            <TextView
+                style="@style/item_name"
+                android:text="纬度" />
+            <TextView
+                style="@style/item_cut_line"/>
+            <TextView
+                style="@style/item_data"
+                android:id="@+id/tv_data4"
+                android:hint="数据4" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/horizontal_cut_line"/>
+
+    <RelativeLayout
+        style="@style/item_RelativeLayout">
+        <LinearLayout
+            style="@style/item_LinearLayout">
+
+            <TextView
+                style="@style/item_name_double"
+                android:text="高度/方位角:" />
+
+            <TextView
+                style="@style/item_cut_line"/>
+            <LinearLayout
+                style="@style/twoDataShow">
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data5_1"
+                    android:hint="数据5_1" />
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data5_2"
+                    android:hint="数据5_2" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/horizontal_cut_line"/>
+
+    <RelativeLayout
+        style="@style/item_RelativeLayout">
+        <LinearLayout
+            style="@style/item_LinearLayout">
+            <TextView
+                style="@style/item_name_double"
+                android:text="俯仰角/速度角:" />
+            <TextView
+                style="@style/item_cut_line"/>
+            <LinearLayout
+                style="@style/twoDataShow">
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data6_1"
+                    android:hint="数据6_1" />
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data6_2"
+                    android:hint="数据6_2" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/horizontal_cut_line"/>
+
+    <RelativeLayout
+        style="@style/item_RelativeLayout">
+        <LinearLayout
+            style="@style/item_LinearLayout">
+            <TextView
+                style="@style/item_name_double"
+                android:text="速度/横滚:" />
+            <TextView
+                style="@style/item_cut_line"/>
+            <LinearLayout
+                style="@style/twoDataShow">
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data7_1"
+                    android:hint="数据7_1" />
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data7_2"
+                    android:hint="数据7_2" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/horizontal_cut_line"/>
+
+    <RelativeLayout
+        style="@style/item_RelativeLayout">
+        <LinearLayout
+            style="@style/item_LinearLayout">
+            <TextView
+                style="@style/item_name_double"
+                android:text="卫星/定向状态:" />
+            <TextView
+                style="@style/item_cut_line"/>
+            <LinearLayout
+                style="@style/twoDataShow">
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data8_1"
+                    android:hint="数据8_1" />
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data8_2"
+                    android:hint="数据8_2" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/horizontal_cut_line"/>
+
+    <RelativeLayout
+        style="@style/item_RelativeLayout">
+        <LinearLayout
+            style="@style/item_LinearLayout">
+            <TextView
+                style="@style/item_name_double"
+                android:text="前/后天线可用星数:" />
+            <TextView
+                style="@style/item_cut_line"/>
+            <LinearLayout
+                style="@style/twoDataShow">
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data9_1"
+                    android:hint="数据9_1" />
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data9_2"
+                    android:hint="数据9_2" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/horizontal_cut_line"/>
+
+    <RelativeLayout
+        style="@style/item_RelativeLayout">
+        <LinearLayout
+            style="@style/item_LinearLayout">
+            <TextView
+                style="@style/item_name_double"
+                android:text="东向/北向/天向位置坐标:" />
+            <TextView
+                style="@style/item_cut_line"/>
+            <LinearLayout
+                style="@style/twoDataShow">
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data10_1"
+                    android:hint="数据10_1" />
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data10_2"
+                    android:hint="数据10_2" />
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data10_3"
+                    android:hint="数据10_3" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/horizontal_cut_line"/>
+
+    <RelativeLayout
+        style="@style/item_RelativeLayout">
+        <LinearLayout
+            style="@style/item_LinearLayout">
+            <TextView
+                style="@style/item_name_double"
+                android:text="东向/北向/天向速度:" />
+            <TextView
+                style="@style/item_cut_line"/>
+            <LinearLayout
+                style="@style/twoDataShow">
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data11_1"
+                    android:hint="数据11_1" />
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data11_2"
+                    android:hint="数据11_2" />
+                <TextView
+                    style="@style/item_data"
+                    android:id="@+id/tv_data11_3"
+                    android:hint="数据11_3" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/item_cut_line_horizontal"/>
+    <LinearLayout
+        style="@style/item_RelativeLayout"
+        android:layout_weight="4"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/btn_local_start"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="读取本地txt" />
+            <Button
+                android:id="@+id/btn_local_pause"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="本地读取暂停" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/btn_server_start"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="服务端启动" />
+            <Button
+                android:id="@+id/btn_server_pause"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="服务端暂停" />
+            <Button
+                android:id="@+id/btn_get_local_ip"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="本地ip地址" />
+        </LinearLayout>
+        <!--<LinearLayout-->
+        <!--    android:layout_width="match_parent"-->
+        <!--    android:layout_height="0dp"-->
+        <!--    android:layout_weight="1.5">-->
+        <!--    -->
+        <!--</LinearLayout>-->
+        <TextView
+            android:id="@+id/tv_server_receive_data"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:scrollbars="vertical"
+            android:textColor="@android:color/holo_green_dark"
+            android:hint="客户端发送过来的数据"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+            <TextView
+                android:id="@+id/tv_local_ip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/holo_green_dark"
+                android:hint="本机ip地址"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
