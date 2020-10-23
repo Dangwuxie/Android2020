@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_margin="5dp"
+        android:hint="数据交互"
+        android:scrollbars="vertical"
+        android:padding="3dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="15dp" />
+    <EditText
+        android:id="@+id/et_server_ip"
+        android:layout_width="match_parent"
+        android:hint="输入客户端地址ip"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btn_linked_server_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接客户端"/>
+
+    <Button
+        android:id="@+id/btn_send_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="逐条发送数据"/>
+
+
+
+</LinearLayout>
